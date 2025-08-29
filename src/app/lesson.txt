@@ -1,0 +1,30 @@
+To learn routing - check out the app folder
+To learn nested routes - check out the blog folder
+To learn dynamic routes - check out products folder
+To learn nested dynamic route - check reviews folder in products folder
+To learn about catch all segments, check the docs folder
+To learn to display 404 page, check not-found.tsx in app folder and reviewId folder
+To learn about private folders, check out _lib folder
+To learn about route groups, check (auth) folder - To group routes in a folder without using the folder name in the URL path
+To learn nested layouts, check [productId] folder
+To learn route group layouts, check (route-group-layout) folder
+To learn how to use metadata, check about and [productId] folders
+To learn more about the title metadata, check layout.tsx in the app folder
+To learn about navigation, check navbar.tsx in components folder
+To learn about active links, check out (auth) folder
+To navigate programatically, check page.tsx in the [productId] folder
+To learn about loading file, check loading.tsx in the blog folder
+
+To learn about handling errors, check out error.tsx in the [reviewId] folder - reset function is used to reload the component affected by the error without reloading the entire project
+
+The placement of error.tsx in nested layouts plays a crucial role in determining the scope of error handling, allowing for more precise control over which parts of the UI are affected when errors occur
+
+For errors in layout files, place the error.tsx file in a higher folder hierarchy than the layout.tsx file e.g. move the error.tsx file in the [reviewId] folder to the products folder for it to affect the layout.tsx in the [productId] folder
+
+To learn parallel routing, check out the complex folder - Parallel routing uses slots to show different UI content together at a time, without changing the URL; it is useful for complex dashboards in showing different info that might have different loading times, errors etc. This allows the user to check other parts of a page if a part is still loading or has errors
+
+/* Stopped at Video 28 */
+To learn about sub-navigation and unmatched routes in slots, check out archived folder in @notifications folder
+If you sub-navigate to another file within a slot and you reload the page, it will bring out a 404 error unless each of the other slots have a default.tsx file  
+
+To learn intercepting routes, check out f1 folder
